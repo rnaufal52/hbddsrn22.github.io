@@ -3,7 +3,7 @@ function memulai() {
 }
 
 function bunyi() {
-  var bel = new Audio("../assets/audio.mp3");
+  var bel = new Audio("./Assets/audio.mp3");
   bel.play();
 }
 
@@ -35,7 +35,7 @@ async function pesan() {
   // 1
   await Swal.fire({
     title: "Hai Kamu 🥰",
-    imageUrl: "../assets/img/Hallo.gif",
+    imageUrl: "./Assets/img/Hallo.gif",
     imageHeight: 100,
     imageWidth: 100,
     timer: 2000,
@@ -59,7 +59,7 @@ async function pesan() {
   // 2
   await Swal.fire({
     title: "Selamat Bertambah Umur ya!",
-    imageUrl: "../assets/img/selamat.gif",
+    imageUrl: "./Assets/img/selamat.gif",
     timer: 2000,
     imageHeight: 100,
     imageWidth: 100,
@@ -83,7 +83,7 @@ async function pesan() {
   // 3
   await Swal.fire({
     title: "Tambah umur harus makin dewasa ya!",
-    imageUrl: "../assets/img/dewasa.gif",
+    imageUrl: "../Assets/img/dewasa.gif",
     timer: 2700,
     imageHeight: 100,
     imageWidth: 100,
@@ -107,7 +107,7 @@ async function pesan() {
   // 4
   await Swal.fire({
     title: "Semoga yang kamu inginkan tercapai ya!",
-    imageUrl: "../assets/img/keinginan.gif",
+    imageUrl: "./Assets/img/keinginan.gif",
     timer: 2700,
     imageHeight: 130,
     imageWidth: 100,
@@ -131,7 +131,7 @@ async function pesan() {
   // 5
   await Swal.fire({
     title: "Jangan lupa ngerjai skripsi 🤩",
-    imageUrl: "../assets/img/skripsi.gif",
+    imageUrl: "./Assets/img/skripsi.gif",
     timer: 2000,
     imageHeight: 100,
     imageWidth: 100,
@@ -155,7 +155,7 @@ async function pesan() {
   // 6
   await Swal.fire({
     title: "Makasih ya untuk semuanya 😍",
-    imageUrl: "../assets/img/makasih.gif",
+    imageUrl: "./Assets/img/makasih.gif",
     timer: 2500,
     imageHeight: 100,
     imageWidth: 150,
@@ -179,7 +179,7 @@ async function pesan() {
   // 7
   await Swal.fire({
     title: "I Love You 😍",
-    imageUrl: "../assets/img/love.gif",
+    imageUrl: "./Assets/img/love.gif",
     timer: 2000,
     imageHeight: 100,
     imageWidth: 150,
